@@ -1,13 +1,3 @@
-<!-- 
-Öğrenciler kendi haklarında bir web sayfası oluşturacaklar.
-İçerik:
-Başlık: İsim ve meslek
-Görsel: Profil resmi
-Hakkımda: Kısa bir biyografi
-İlgi Alanları: Listelerle hobiler
-İletişim Bilgileri: E-posta ve sosyal medya bağlantıları
-İletişim Formu: Ad soyad ve textarea olacak
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,21 +8,22 @@ Hakkımda: Kısa bir biyografi
 <body style="background-color: #f4f4f9; color: #333;" align="center">
 
     <div class="header">
-        <!-- A photograph of the man -->
-        <img src=".\nazifkaraca.jpg" alt="a smiling man"
+        <!-- A photograph -->
+        <img src="images/nazifkaraca.jpg" alt="a smiling man"
         width="200">
         <!-- Header of the Website -->
         <h1>Nazif Karaca</h1>
 
-        <h1 style="font-size: 23px;"><i>Software Engineering Student</i></h1>
+        <h2 style="font-size: 23px;"><i>Software Engineering Graduate <br> Full Stack Developer (.NET and React)</i></h2>
     </div>
 
     <div class="nav">
 
-        <nav style="font-size: 20px;">
+        <nav style="font-size: 20px; font-weight: bold">
             <ol style="list-style-type: none; padding: 0;">
-                <li><a href="./biography.html">Biyografi</a></li>
-                <li><a href="./interests.html">İlgi  Alanları</li>
+                <li><a href="pages/biography.html">Biyografi</a></li>
+                <li><a href="pages/interests.html">İlgi  Alanları</a></li>
+                <li><a href="pages/projects.html">Projeler</a></li>
             </ol>
         </nav>
 
@@ -40,11 +31,34 @@ Hakkımda: Kısa bir biyografi
 
     <div class="section">
 
-        <h2>İletişim Bilgileri</h2>
-        <a href="https://www.linkedin.com/in/nazifkaraca/" target="_blank" style="padding: 1%;"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="https://www.linkedin.com/in/nazifkaraca/" width="50px"></a>
-        <a href="https://github.com/nazifkaraca" target="_blank" style="padding: 1%;"><img src="https://static-00.iconduck.com/assets.00/github-icon-512x512-82o4o5gn.png" alt="https://github.com/nazifkaraca" width="50px"></a>
-        <a href="https://nazifkaraca.medium.com/" target="_blank" style="padding: 1%;"><img src="https://cdn.icon-icons.com/icons2/2997/PNG/512/medium_logo_icon_187624.png" alt="https://nazifkaraca.medium.com/" width="50px"></a>
+        <h3 style="margin-bottom: 0%;">İletişim Bilgileri</h3>
+        <hr width="250px">
         
+        <a href="mailto:nazif808@gmail.com" target="_blank" style="padding: 1%; text-decoration: none;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail" width="50px">
+        </a>
+        
+        <a href="https://www.linkedin.com/in/nazifkaraca/" target="_blank" style="padding: 0.5%;text-decoration: none;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Profile" width="50px">
+        </a>
+
+        <a href="https://github.com/nazifkaraca" target="_blank" style="padding: 0.5%; text-decoration: none;">
+            <img src="https://static-00.iconduck.com/assets.00/github-icon-512x512-82o4o5gn.png" alt="GitHub Profile" width="50px">
+        </a>
+
+        <a href="https://medium.com/@nazifkaraca" target="_blank" style="padding: 0.5%; text-decoration: none;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Medium_logo_Monogram.svg" alt="Medium Profile" width="50px">
+        </a>
+
+        <a href="https://www.credly.com/users/nazif-karaca" target="_blank" style="padding: 0.5%; text-decoration: none;">
+            <img src="https://www.svgrepo.com/show/331358/credly.svg" alt="Credly Profile" width="50px">
+        </a>
+        
+        <br>
+
+        <a href="tel:+905077791180" style="display: inline-block; padding: 8px 10px; margin-top: 3%; background: rgb(63, 31, 31); color: white; border-radius: 5px; text-decoration: none; font-size: 18px;">
+            📞 Ara: +90 507 779 1180
+        </a>
     </div>
 </body>
 </html>
