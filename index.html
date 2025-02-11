@@ -3,63 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nazif Karaca</title>
+    <title>Document</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100..900&display=swap" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- CDN Sources -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
-<body style="background-color: #f4f4f9; color: #333;" align="center">
-
-    <div class="header">
-        <!-- A photograph -->
-        <img src="images/nazifkaraca.jpg" alt="a smiling man"
-        width="200">
-        <!-- Header of the Website -->
-        <h1>Nazif Karaca</h1>
-
-        <h2 style="font-size: 23px;"><i>Software Engineering Graduate <br> Full Stack Developer (.NET and React)</i></h2>
-    </div>
-
-    <div class="nav">
-
-        <nav style="font-size: 20px; font-weight: bold">
-            <ol style="list-style-type: none; padding: 0;">
-                <li><a href="pages/biography.html">Biyografi</a></li>
-                <li><a href="pages/interests.html">İlgi  Alanları</a></li>
-                <li><a href="pages/projects.html">Projeler</a></li>
-                <li><a href="pages/bootcamp-projects.html">Bootcamp Projeleri</a></li>
-            </ol>
+<body>
+    <!-- NAVBAR -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <i class="fa-solid fa-bars menu-hbmgr"></i>
+        </label>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
+    </header>
 
-    </div>
-
-    <div class="section">
-
-        <h3 style="margin-bottom: 0%;">İletişim Bilgileri</h3>
-        <hr width="250px">
-        
-        <a href="mailto:nazif808@gmail.com" target="_blank" style="padding: 1%; text-decoration: none;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail" width="50px">
-        </a>
-        
-        <a href="https://www.linkedin.com/in/nazifkaraca/" target="_blank" style="padding: 0.5%;text-decoration: none;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Profile" width="50px">
-        </a>
-
-        <a href="https://github.com/nazifkaraca" target="_blank" style="padding: 0.5%; text-decoration: none;">
-            <img src="https://static-00.iconduck.com/assets.00/github-icon-512x512-82o4o5gn.png" alt="GitHub Profile" width="50px">
-        </a>
-
-        <a href="https://medium.com/@nazifkaraca" target="_blank" style="padding: 0.5%; text-decoration: none;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Medium_logo_Monogram.svg" alt="Medium Profile" width="50px">
-        </a>
-
-        <a href="https://www.credly.com/users/nazif-karaca" target="_blank" style="padding: 0.5%; text-decoration: none;">
-            <img src="https://www.svgrepo.com/show/331358/credly.svg" alt="Credly Profile" width="50px">
-        </a>
-        
-        <br>
-
-        <a href="tel:+905077791180" style="display: inline-block; padding: 8px 10px; margin-top: 3%; background: rgb(63, 31, 31); color: white; border-radius: 5px; text-decoration: none; font-size: 18px;">
-            📞 Ara: +90 507 779 1180
-        </a>
-    </div>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello!</h3>
+            <h1>I am Nazif Karaca</h1>
+            <h3>and I am 
+                <span class="home-span">
+                    <span class="frontend-span">Frontend</span>
+                    <span class="backend-spane">Backend</span>
+                    <span class="fullstack-span">Fullstack</span>
+                    <span class="last-span">Developer</span>
+                </span>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe fugit consequatur eum enim atque in iusto eos suscipit, cupiditate voluptatem.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="cv-btn"><i class="fa-solid fa-newspaper"></i></a>
+            </div>
+            <div class="home-img">
+                <img src="assets/nazifkaraca.jpg" alt="Profile Picture">
+                <div class="home-img-clip"></div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
